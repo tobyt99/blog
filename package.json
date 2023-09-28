@@ -2,7 +2,7 @@
   "name": "hb-theme",
   "description": "The starter theme template of [HB Framework](https://hbstack.dev/).",
   "scripts": {
-    "dev": "hugo server --gc --disableFastRender --enableGitInfo -D",
+    "dev": "hugo server --gc --disableFastRender --enableGitInfo -D --bind 0.0.0.0 --baseURL=http://192.168.1.73:1313 ",
     "prod": "hugo server --gc --disableFastRender --enableGitInfo --renderToDisk --minify -e production -p 1314"
   },
   "repository": {
